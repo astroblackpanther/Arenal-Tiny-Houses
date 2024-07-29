@@ -133,4 +133,6 @@ sr.reveal(`.logos__img`, {interval: 100})
 sr.reveal(`.value__images, .contact__content`, {origin: 'left'})
 sr.reveal(`.value__content, .contact__images`, {origin: 'right'})
 
+/*=============== CONTACT BUTTONS ===============*/
+
 
