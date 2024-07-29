@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Reservar</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    Arenal Tiny Houses <i class='bx bxs-home-alt-2'></i>
+                </a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home-alt-2' ></i>
+                                <span>Inicio</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#popular" class="nav__link">
+                                <i class='bx bx-building-house' ></i>
+                                <span>Tiny Houses</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#value" class="nav__link">
+                                <i class='bx bx-award' ></i>
+                                <span>Nosotros</span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <span>Contacto</span>
+                                <i class='bx bx-phone' ></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <a href="#" class="nav__button button">Volver</a>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Reserva <br> Ahora
+                        </h1>
+                        <p class="home__description">
+                            Encuentra nuestros Tiny Houses en la Fortuna, 
+                            olvida toda distracción y toma un tiempo para descansar. 
+                            Estas son algunas de las cosas que puedes encontrar en nuestro Arenal Tiny Houses.
+                        </p>
+    
+                        <div class="home__value">
+                            <div>
+                                <h1 class="home__value-number">
+                                     <span></span>
+                                </h1>
+                                <span class="home__value-description">
+                                     <br> 
+                                </span>
+                            </div>
+    
+                            <div>
+                                <h1 class="home__value-number">
+                                     <span></span>
+                                </h1>
+                                <span class="home__value-description">
+                                     <br>
+                                </span>
+                            </div>
+    
+                            <div>
+                                <h1 class="home__value-number">
+                                     <span></span>
+                                </h1>
+                                <span class="home__value-description">
+                                     <br> 
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="home__images">
+                        <div class="home__orbe"></div>
+    
+                        <div class="home__vid">
+                            <video autoplay muted loop class="home__video">
+                                <source src="assets/videos/home_video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--==================== POPULAR ====================-->
+            <section class="section" id="popular">
+                <div class="container">
+                    <span class="section__subtitle">Nuestros Tiny Houses en</span>
+                    <h2 class="section__title">
+                        La Fortuna, San Carlos<span></span>
+                    </h2>
+
+                    <div class="popular__container grid swiper">
+                        <div class="swiper-wrapper">
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/popular1.jpg" alt="" class="popular__img">
+    
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>₡</span>50,000
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Puerto Viejo Tiny House
+                                    </h3>
+                                    <p class="popular__description">
+                                        Disfruta tus vacaciones de ensueño en las playas del Caribe de Costa Rica
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="assets/img/popular2.jpg" alt="" class="popular__img">
+    
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>₡</span>70,000
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Guanacaste Tiny Houses
+                                    </h3>
+                                    <p class="popular__description">
+                                        Ubicada en frente de la playa donde puedes disfrutar de un lindo atardecer
+                                    </p>
+                                </div>
+                            </article>
+                </div>
+            </section>
+
+
+            <!--==================== REGISTRO ====================-->
+            <section class="subscribe section">
+                <div class="subscribe__container container">
+                    <h1 class="subscribe__title">
+                        Visita nuestros Tiny Houses
+                    </h1>
+                    <p class="subscribe__description">
+                        Regístrate para tener las mejores promociones y
+                        descuentos para tus estadías
+                    </p>
+                    <a href="#" class="button subscribe__button">
+                        Reservar
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="" class="footer__logo">
+                        Arenal Tiny Houses <i class='bx bxs-home-alt-2'></i>
+                    </a>
+                    <p class="footer__description">
+                        Nuestra visión es crear un espacio y <br> 
+                        acomodación que ofrece un único<br> 
+                        espacio para relajarse con la naturaleza<br>  
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            Sobre Nosotros
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Sobre Nosotros</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Tiny Houses</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Nuestra Historia</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="footer__title">
+                            Tiny House
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Cómo Registrarse?</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Costos</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Seguridad</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h3 class="footer__title">
+                            Support
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Centro de Apoyo</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Contáctanos</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Follow us
+                        </h3>
+
+                        <ul class="footer__social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-facebook-circle' ></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                            <a href="https://www.pinterest.com/" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-pinterest' ></i>
+                            </a>    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169;
+                </span>
+                <div class="footer__privacy">
+                    
+                </div>
+            </div>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-chevrons-up'></i>
+        </a>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
+
+
+<!--==================== LOGIN FORM ====================-->
+<!--<section class="section login">
+    <div class="container">
+        <form action="login.php" method="post" class="login-form">
+            <h2 class="form-title">Iniciar sesión</h2>
+            <div class="form-group">
+                <label for="username">Nombre de usuario o correo electrónico</label>
+                <input type="text" name="username" id="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="button">Iniciar sesión</button>
+            </div>
+        </form>
+        <p class="login-register-link">¿No tienes una cuenta? <a href="registro.html">Regístrate aquí</a></p>
+    </div>
+</section>--
