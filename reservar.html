@@ -121,6 +121,40 @@
             </section>
 
 
+            <!--==================== RESERVATION SECTION ====================-->
+            <section class="reservation section">
+                <div class="reservation__container container">
+                    <img src="assets/img/popular4.jpg" alt="Jacuzzi con vista" class="reservation__image">
+
+                    <div class="reservation__form-container">
+                        <form action="#" method="GET" class="reservation__form">
+                            <div class="reservation__form-group">
+                                <label for="date" class="reservation__label">Date:</label>
+                                <input type="date" id="date" name="date" class="reservation__input" required>
+                            </div>
+
+                            <div class="reservation__form-group">
+                                <label for="guests" class="reservation__label">Guest:</label>
+                                <input type="number" id="guests" name="guests" class="reservation__input" min="1" max="10" required>
+                            </div>
+
+                            <div class="reservation__form-group">
+                                <label for="room" class="reservation__label">Room:</label>
+                                <select id="room" name="room" class="reservation__input" required>
+                                    <option value="tiny_house_star">Tiny House STAR</option>
+                                    <option value="tiny_house_moon">Tiny House MOON</option>
+                                    <option value="tiny_house_privado">Arenal Tiny Houses - Privado</option>
+                                </select>
+                            </div>
+
+                            <div class="reservation__form-group">
+                                <button type="submit" class="button reservation__button">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
             <!--==================== POPULAR ====================-->
             <section class="section" id="popular">
                 <div class="container">
